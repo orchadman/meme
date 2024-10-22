@@ -1,0 +1,27 @@
+practical 6-----web security with ssl/tls configure & implement secure web communication using ssl/tls protocols
+
+STEPS:
+
+1--Obtain as SSL/TLS certificate
+-- obtain an ssl/tls certificate from a trusted certificate authority (CA).This certificate secures the web communication.
+
+2--Install the certificate
+--Generate a certificate singing request (CSR) submit it to the CA,recieve the signed certificate and then install ssl/tls certificate on the server.
+
+3--Configure HTTPS on web server
+--Update the server configuration to listen on the secure HTTPs port.
+
+4--Enable SSL/TLS protocol
+--Configure the web server to support the desired SSL/TLS protocols.
+
+5--Configure Cipher Suiter
+--Specify the supported cipher suites for SSL/TLS connections.
+
+6--Redirect HTTP to HTTPS
+--To ensure all web traffic is encrypted,set up a redirect from HTTP to HTTPs.
+
+7--Test and Verify
+--Test the SSL/TLS configuration by accessing the website using HTTPs.
+
+8--Periodic Maintenance
+--Regularly MOnitor and update the SSL/TLS configuration.

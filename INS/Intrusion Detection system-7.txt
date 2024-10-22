@@ -1,0 +1,22 @@
+practical 7---Intrusion Detection System
+
+STEPS--
+
+1--Configure terminal
+--Eg: switch#configure terminal
+
+2--Wireless wps cids-sensor index[ip-address ip-address username username password password-type password]
+Eg: Switch(config)# wireless wps cids-sensor 2 231.1.1.1.1 admin pwd123
+
+3--Wireless wps cids-sensor index
+Eg: Switch(config)# wireless wps cids-sensor 1
+
+4--[Default exit fingerprint interval no port shutdown] Configures various IDS parameters
+..default-sets a command to its default
+..fingerprint-configures the sensor's TLS fingerprint.
+..port-configures the sensor's port number.
+..shutdown-switch(config-cids-index) #default.
+
+5--End
+--Returns to privileged EXEC mode
+   Eg: Switch (config) #end.
