@@ -1,0 +1,33 @@
+Practical No - 10
+
+Aim: Configure and text firewall rules to control network traffic filter packets based on specified criteria and protect network resources from unauthorized access.
+
+Steps:
+
+Step1: Open Virtual Machine and start appropriate system (Windows 7 or 8 or 10 or 11).
+
+Step 2: After successful open, search for "Windows Defender Firewall with Advanced Security".
+
+Step 3: Click on "Inbound Rule" on the left panel.
+            --> Click on "New Rules" on the Actions window which is on the                    right side of panel.
+            --> Select "port".
+            --> Choose appropriate rule TCP/UDP (Here TCP).
+            --> Choose "Specific local ports" option, enter port number of                   protocol to block (Here, 80, 443 i.e. http & https port no.).
+            --> Next.
+            --> Select "Block the connection" and next.
+            --> Leave next window as default and next.
+            --> Name the rule (Here, block http).
+            --> Finish
+
+Step 4: Perform similar steps for "Outbound Rules" on the left panel. 
+            
+            Steps:
+            --> Click on "New Rules" on the Actions window which is on the                         right side of panel.
+            --> Select "port".
+            --> Choose appropriate rule TCP/UDP (Here TCP).
+            --> Choose "Specific local ports" option, enter port number of                               protocol to block (Here, 80, 443 i.e. http & https port no.).
+            --> Next.
+            --> Select "Block the connection" and next.
+            --> Leave next window as default and next.
+            --> Name the rule (Here, block http).
+            --> Finish

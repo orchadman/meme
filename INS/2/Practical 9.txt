@@ -1,0 +1,37 @@
+Practical NO - 09
+
+Aim: Malware Analysis and Detection
+Analyze and identify malware samples using antivirus tools, analyze their behaviour, and develop counter measures to mitigate their impact.
+
+The process for analyzing and detecting malware:
+
+1) Obtaining Malware Samples
+ --> Obtain malware samples from various sources such as honeypots, threat intelligence feeds or suspicious emails.
+
+2) Isolating the Malware
+ --> Set up a dedicated and isolated environment to analyze the malware safety.
+
+3) Static Analysis
+ --> Perform initial static analysis to understand the file's structure, strings and potential indicators of compromise (IOCs).
+
+4) Dynamic Analysis
+ --> Execute the malware in a controlled environment to observe it's behaviour.
+
+5) Behavior Analysis
+ --> Monitor the malware's behavior during execution to identify any malicious activities.
+
+6) Code Reversing
+ --> If the malware employs obfuscation or anti - analysis techniques, we code reversing techniques.
+
+7) Signature Generation
+ --> Based on the findings from the analysis, develop signature or patterns that can be used to detect and identify the malware in the future.
+
+8) Reporting
+ --> Document the findings and analysis results, including IOCs and signatures.
+
+9) Mitigation and Remediation
+ --> Develop counter measures and mitigation strategies to protect your systems from similar malware in the future.
+
+10) Continuous Learning
+ --> Stay updated with the latest malware trends, attack vectors and evasion techniques.
+
